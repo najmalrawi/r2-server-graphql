@@ -1,0 +1,9 @@
+type Subscriber {
+	pk: Int!
+	number: Int!
+	joined: Boolean!
+}
+
+type Query {
+	subscribers: [Subscriber!]!
+}
